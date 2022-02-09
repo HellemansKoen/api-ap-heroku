@@ -6,6 +6,7 @@ app.use(
     cors({
         credentials: true,
         origin: *
+        /*origin: 'https://xenodochial-gates-cf6795.netlify.app/' */
     })
 );
 app.options('*', cors());
